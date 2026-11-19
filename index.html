@@ -201,7 +201,7 @@
     /* answer box (AEO) */
     .answer-sec{padding:28px 0 0;position:relative;z-index:2}
     @media (min-width:900px){.answer-sec{padding:0;margin-top:-56px}.hero{padding-bottom:110px}}
-    @media (max-width:899px){main{display:flex;flex-direction:column}.hero{order:-2}#services{order:-1}.answer-sec{padding:0 0 72px}}
+    @media (max-width:899px){main{display:flex;flex-direction:column}.hero{order:-3}#results{order:-2}#services{order:-1}.answer-sec{padding:0 0 72px}}
     .answer{background:#fff;border-radius:24px;box-shadow:var(--shadow-lg);padding:30px 32px;display:grid;gap:26px}
     .answer h2{font-size:1.35rem}
     .answer #answer{color:var(--muted);margin-top:10px}
@@ -459,6 +459,24 @@
       </div>
     </section>
 
+    <section class="tint" id="results">
+      <div class="wrap">
+        <div class="head rv">
+          <span class="eyebrow">Before &amp; After</span>
+          <h2>See the difference. Drag to compare.</h2>
+        </div>
+        <p class="hint rv">Slide the handle on any photo.</p>
+        <div class="ba-grid">
+          <figure class="ba rv"><div class="ba-f"><img src="./assets/ba/pool-pavers-after.jpg" alt="After: clean pool deck pavers" loading="lazy"><img class="bf" src="./assets/ba/pool-pavers-before.jpg" alt="Before: moss and black staining on pool deck pavers" loading="lazy"><span class="ba-t b">Before</span><span class="ba-t a">After</span><div class="ba-l"></div><div class="ba-k"><svg><use href="#i-swap"/></svg></div><input class="ba-r" type="range" min="0" max="100" value="50" aria-label="Compare pool deck pavers before and after"></div><figcaption>Pool deck pavers</figcaption></figure>
+          <figure class="ba rv"><div class="ba-f"><img src="./assets/ba/siding-after.jpg" alt="After: clean blue vinyl siding" loading="lazy"><img class="bf" src="./assets/ba/siding-before.jpg" alt="Before: green mildew streaks on vinyl siding" loading="lazy"><span class="ba-t b">Before</span><span class="ba-t a">After</span><div class="ba-l"></div><div class="ba-k"><svg><use href="#i-swap"/></svg></div><input class="ba-r" type="range" min="0" max="100" value="50" aria-label="Compare vinyl siding before and after"></div><figcaption>Vinyl siding</figcaption></figure>
+          <figure class="ba rv"><div class="ba-f"><img src="./assets/ba/tile-roof-after.jpg" alt="After: bright clean clay tile roof" loading="lazy"><img class="bf" src="./assets/ba/tile-roof-before.jpg" alt="Before: dark, dirty clay tile roof" loading="lazy"><span class="ba-t b">Before</span><span class="ba-t a">After</span><div class="ba-l"></div><div class="ba-k"><svg><use href="#i-swap"/></svg></div><input class="ba-r" type="range" min="0" max="100" value="50" aria-label="Compare tile roof wash before and after"></div><figcaption>Tile roof wash</figcaption></figure>
+          <figure class="ba rv"><div class="ba-f"><img src="./assets/ba/screen-after.jpg" alt="After: clear, clean pool screen" loading="lazy"><img class="bf" src="./assets/ba/screen-before.jpg" alt="Before: green, dirty pool screen" loading="lazy"><span class="ba-t b">Before</span><span class="ba-t a">After</span><div class="ba-l"></div><div class="ba-k"><svg><use href="#i-swap"/></svg></div><input class="ba-r" type="range" min="0" max="100" value="50" aria-label="Compare screen enclosure before and after"></div><figcaption>Screen enclosure</figcaption></figure>
+          <figure class="ba rv"><div class="ba-f"><img src="./assets/ba/walkway-after.jpg" alt="After: clean tile walkway" loading="lazy"><img class="bf" src="./assets/ba/walkway-before.jpg" alt="Before: stained tile walkway" loading="lazy"><span class="ba-t b">Before</span><span class="ba-t a">After</span><div class="ba-l"></div><div class="ba-k"><svg><use href="#i-swap"/></svg></div><input class="ba-r" type="range" min="0" max="100" value="50" aria-label="Compare tile walkway before and after"></div><figcaption>Tile walkway</figcaption></figure>
+          <figure class="ba rv"><div class="ba-f"><img src="./assets/ba/stucco-after.jpg" alt="After: clean window sill and stucco" loading="lazy"><img class="bf" src="./assets/ba/stucco-before.jpg" alt="Before: mildew on a window sill and stucco wall" loading="lazy"><span class="ba-t b">Before</span><span class="ba-t a">After</span><div class="ba-l"></div><div class="ba-k"><svg><use href="#i-swap"/></svg></div><input class="ba-r" type="range" min="0" max="100" value="50" aria-label="Compare stucco & windows before and after"></div><figcaption>Stucco &amp; windows</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
     <section id="services">
       <div class="wrap">
         <div class="head rv">
@@ -493,24 +511,6 @@
         </div>
         <div class="vid-frame rv">
           <video controls muted playsinline preload="none" poster="./assets/video/reel-poster.jpg" aria-label="Before and after video of Southern Suds jobs"><source src="./assets/video/reel.mp4" type="video/mp4">Your browser can't play this video.</video>
-        </div>
-      </div>
-    </section>
-
-    <section class="tint" id="results">
-      <div class="wrap">
-        <div class="head rv">
-          <span class="eyebrow">Before &amp; After</span>
-          <h2>See the difference. Drag to compare.</h2>
-        </div>
-        <p class="hint rv">Slide the handle on any photo.</p>
-        <div class="ba-grid">
-          <figure class="ba rv"><div class="ba-f"><img src="./assets/ba/pool-pavers-after.jpg" alt="After: clean pool deck pavers" loading="lazy"><img class="bf" src="./assets/ba/pool-pavers-before.jpg" alt="Before: moss and black staining on pool deck pavers" loading="lazy"><span class="ba-t b">Before</span><span class="ba-t a">After</span><div class="ba-l"></div><div class="ba-k"><svg><use href="#i-swap"/></svg></div><input class="ba-r" type="range" min="0" max="100" value="50" aria-label="Compare pool deck pavers before and after"></div><figcaption>Pool deck pavers</figcaption></figure>
-          <figure class="ba rv"><div class="ba-f"><img src="./assets/ba/siding-after.jpg" alt="After: clean blue vinyl siding" loading="lazy"><img class="bf" src="./assets/ba/siding-before.jpg" alt="Before: green mildew streaks on vinyl siding" loading="lazy"><span class="ba-t b">Before</span><span class="ba-t a">After</span><div class="ba-l"></div><div class="ba-k"><svg><use href="#i-swap"/></svg></div><input class="ba-r" type="range" min="0" max="100" value="50" aria-label="Compare vinyl siding before and after"></div><figcaption>Vinyl siding</figcaption></figure>
-          <figure class="ba rv"><div class="ba-f"><img src="./assets/ba/tile-roof-after.jpg" alt="After: bright clean clay tile roof" loading="lazy"><img class="bf" src="./assets/ba/tile-roof-before.jpg" alt="Before: dark, dirty clay tile roof" loading="lazy"><span class="ba-t b">Before</span><span class="ba-t a">After</span><div class="ba-l"></div><div class="ba-k"><svg><use href="#i-swap"/></svg></div><input class="ba-r" type="range" min="0" max="100" value="50" aria-label="Compare tile roof wash before and after"></div><figcaption>Tile roof wash</figcaption></figure>
-          <figure class="ba rv"><div class="ba-f"><img src="./assets/ba/screen-after.jpg" alt="After: clear, clean pool screen" loading="lazy"><img class="bf" src="./assets/ba/screen-before.jpg" alt="Before: green, dirty pool screen" loading="lazy"><span class="ba-t b">Before</span><span class="ba-t a">After</span><div class="ba-l"></div><div class="ba-k"><svg><use href="#i-swap"/></svg></div><input class="ba-r" type="range" min="0" max="100" value="50" aria-label="Compare screen enclosure before and after"></div><figcaption>Screen enclosure</figcaption></figure>
-          <figure class="ba rv"><div class="ba-f"><img src="./assets/ba/walkway-after.jpg" alt="After: clean tile walkway" loading="lazy"><img class="bf" src="./assets/ba/walkway-before.jpg" alt="Before: stained tile walkway" loading="lazy"><span class="ba-t b">Before</span><span class="ba-t a">After</span><div class="ba-l"></div><div class="ba-k"><svg><use href="#i-swap"/></svg></div><input class="ba-r" type="range" min="0" max="100" value="50" aria-label="Compare tile walkway before and after"></div><figcaption>Tile walkway</figcaption></figure>
-          <figure class="ba rv"><div class="ba-f"><img src="./assets/ba/stucco-after.jpg" alt="After: clean window sill and stucco" loading="lazy"><img class="bf" src="./assets/ba/stucco-before.jpg" alt="Before: mildew on a window sill and stucco wall" loading="lazy"><span class="ba-t b">Before</span><span class="ba-t a">After</span><div class="ba-l"></div><div class="ba-k"><svg><use href="#i-swap"/></svg></div><input class="ba-r" type="range" min="0" max="100" value="50" aria-label="Compare stucco & windows before and after"></div><figcaption>Stucco &amp; windows</figcaption></figure>
         </div>
       </div>
     </section>
